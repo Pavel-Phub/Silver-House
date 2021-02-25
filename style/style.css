@@ -1,0 +1,166 @@
+* {
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    list-style: none;
+}
+
+.container {
+    width: 1110px;
+    margin: 0 auto;
+}
+
+/* Header Start */
+
+.header__item-logo {
+    text-align: center;
+    /* display: flex;
+    flex-direction: column;
+    align-items: center; */
+}
+
+.logo {
+    margin-top: 30px;
+    margin-bottom: 59px;
+    display: inline-block;
+}
+
+nav ul {
+    display: flex;
+    justify-content: center;
+    /* justify-content: space-between; */
+
+}
+
+nav ul a {
+    color: #bab9b9;
+    font-size: 18px;
+    font-family: arial;
+    margin-left: 49px;
+    margin-bottom: 14px;
+    /* display: inline-block; */
+    /* position: relative; */
+    /* margin-bottom: 50px; */
+}
+
+nav ul li a:hover {
+    color: #4581b7;
+    border-bottom: 1px solid #4581b7;
+    /* width: 100%; */
+}
+
+.header__item-img {
+    margin-top: 59px;
+    margin-bottom: 30px;
+}
+
+/* Header End */
+
+/* *********************** */
+
+/* Main Start */
+
+.main__row {
+    display: flex;
+    justify-content: space-between;
+}
+
+.left {
+    width: 730px;
+    background: #f0f0f0;
+    /* padding: 50px 95px 67px 40px; */
+}
+
+.left h2 {
+    color: #4581b7;
+    font-size: 20px;
+    font-family: arial;
+    margin-bottom: 24px;
+    padding-top: 50px;
+    padding-left: 40px;
+}
+
+.left-text {
+    color: #7f7f7f;
+    line-height: 27px;
+    padding-left: 40px;
+    padding-right: 95px;
+    padding-bottom: 67px;
+    font-size: 18px;
+}
+
+.right {
+    width: 350px;
+    background: #f0f0f0;
+}
+
+.right h2 {
+    color: #4581b7;
+    font-size: 20px;
+    font-family: arial;
+    margin-bottom: 24px;
+    padding-top: 50px;
+    padding-left: 40px;
+}
+
+.right-text {
+    color: #7f7f7f;
+    line-height: 27px;
+    font-size: 18px;
+    padding-left: 40px;
+    padding-right: 54px;
+    padding-bottom: 48px;
+}
+
+.number {
+    color: #7f7f7f;
+    font-size: 18px;
+    padding-left: 40px;
+    display: block;
+}
+
+.email {
+    color: #7f7f7f;
+    font-size: 18px;
+    padding-left: 40px;
+    margin-top: 48px;
+    display: block;
+}
+
+/* Main End */
+
+/* ********************* */
+
+/* Start Footer */
+
+.footer {
+    background: #f0f0f0;
+    margin-top: 30px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer-logo {
+    display: inline-block;
+    padding: 16px 0 14px 41px;
+}
+
+.footer__adress {
+    color: #7f7f7f;
+    font-size: 18px;
+    padding-top: 40px;
+    padding-right: 41px;
+    text-align: right;
+}
+
+.footer-number {
+    color: #808080;
+    font-size: 25px;
+    display: inline-block;
+    padding-top: 8px;
+    font-weight: bold;
+}
+
+/* End Footer */
+
+/* ************************* */
